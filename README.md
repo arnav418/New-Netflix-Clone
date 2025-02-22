@@ -37,7 +37,7 @@ Welcome to the **Streaming Platform UI Clone**! This project is a front-end repl
 
 1️⃣ Clone this repository:
 ```bash
-git clone https://github.com/yourusername/streaming-platform-ui.git
+git clone https://github.com/yourusername/New-Netflix-Clone.git
 ```
 
 2️⃣ Open `index.html` in a browser.
