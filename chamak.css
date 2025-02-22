@@ -11,7 +11,7 @@
 .container{
     height: 100vh;
     width: 100vw;
-    background-image: url(IN-en-20250217-TRIFECTA-perspective_c3376e06-9aff-4657-aafb-91256a597b7c_large.jpg);
+    background-image: url(Netflix_Assets/IN-en-20250217-TRIFECTA-perspective_c3376e06-9aff-4657-aafb-91256a597b7c_large.jpg);
     /* filter: brightness(80%); */
     background-size: cover;
     /* background-blend-mode:hard-light; */
@@ -183,7 +183,7 @@
 }
 
 .trend-items1{
-    background-image:url(./asset\ 2.webp) ;
+    background-image:url(Netflix_Assets/asset\ 2.webp) ;
     width: 180px;
     height: 252px;
     background-size: cover;
