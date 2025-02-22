@@ -1,0 +1,274 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(IN-en-20250217-TRIFECTA-perspective_c3376e06-9aff-4657-aafb-91256a597b7c_large.jpg);
+    /* filter: brightness(80%); */
+    background-size: cover;
+    /* background-blend-mode:hard-light; */
+    
+}
+
+.navbar{
+    height: 90px;
+    width: 80%;
+    background-color:transparent;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar img{
+    height: 80px;
+}
+
+.select-lang{
+    /* background-color: yellow; */
+    height: 40px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-right: 27px;
+}
+
+#lang{
+    height: 32px;
+    padding: 6px 12px;
+    font-family:Poppins;
+    /* font-size: 16px; */
+    font-weight: 600;
+    color:white;
+    background-color: transparent;
+    border: 1px solid rgb(190, 184, 184);
+    border-radius: 3px;
+}
+
+#sign-btn{
+    width: 77px;
+    height: 32px;
+    background-color: red;
+    font-family:Poppins;
+    border-radius: 3px;
+    outline:none;
+    border: none;
+    font-weight: 600;
+    color: white;
+}
+
+.main-con{
+    height: 90vh;
+    width: 100%;
+    /* background-color: yellow; */
+    margin-top: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#head1{
+    font-family: Poppins;
+    font-size: 56px;
+    width: 589px;
+    line-height: 70px;
+    /* background-color: brown; */
+    margin-top: -59px;
+    text-align: center;
+    color: white;
+}
+
+#subhead1{
+    font-family: Poppins;
+    width: 589px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    /* background-color: orange; */
+    margin-top: -16px;
+}
+
+#para1{
+    width: 589px;
+    font-size: 16px;
+    font-family: Poppins;
+    text-align: center;
+    color: white;
+}
+
+.register-box{
+    width: 589px;
+    /* background-color: red; */
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+#signup{
+    height: 56px;
+    width: 366px;
+    padding: 24px 16px;
+    font-size: 16px;
+    border-radius: 4px;
+    color: white;
+    outline: none;
+    border: 2px solid rgb(205, 196, 196);
+    background-color: transparent;
+}
+
+::placeholder{
+    color: white;
+}
+
+#get-btn{
+    height: 56px;
+    width: 212px;
+    font-size: 24px;
+    font-weight: 600;
+    border-radius:4px ;
+    border: none;
+    /* outline: none; */
+    background-color: red;
+    color: white;
+    font-family: Poppins;
+}
+
+.next-con{
+    background-color: rgb(242, 242, 234);
+    height: 210vh;
+    width: 100vw;
+    margin-top: -33px;
+    background-color: rgb(19, 15, 15);
+}
+
+.div-line{
+    height: 5px;
+    width: 100%;
+    background-color: rgb(163, 68, 182);
+    /* border-radius: 30%; */
+}
+
+.trending-sec{
+    width: 80%;
+    margin: auto;
+    margin-top: 60px;
+    height: 340px;
+    /* background-color: yellow;w */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.trending-grid-con{
+    width: 100%;
+    /* background-color: red; */
+    height: 265px;
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+    padding: 6px;
+    justify-content: space-around;
+}
+
+.trend-items1{
+    background-image:url(./asset\ 2.webp) ;
+    width: 180px;
+    height: 252px;
+    background-size: cover;
+    border-radius: 6px;
+    transition: .5s all  0s;
+}
+
+.trend-items1:hover{
+    transform: scale(1.08);
+    border: .5px solid violet;
+}
+
+.joining-line{
+    color: black;
+    color: white;
+    font-family: Poppins;
+    font-size: 1.5rem;
+    font-weight: 600;
+    width: 79%;
+    margin: auto;
+    margin-top: 65px;
+    /* background-color: yellow; */
+}
+
+.cards-container{
+    width: 81%;
+    height: 300px;
+    /* background-color: pink; */
+    margin:auto;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 8px;
+    gap: 10px;
+}
+
+.card1{
+    width: 293px;
+    height: 281px;
+    background-image: linear-gradient(315deg, #ad2a59 0%, #27367c 46%, #08215f 100%);
+    border-radius: 14px;
+    padding: 18px 12px;
+    position: relative;
+}
+
+#card-icon{
+    position: absolute;
+    right: 10px;
+    bottom: 20px;
+    height: 80px;
+}
+
+.faq{
+    height: 50vh;
+    width: 100%;
+    margin-top: 64px;
+    /* background-color: blue; */
+}
+
+.faqhead{
+    color: white;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+    width: 80%;
+    margin: auto;
+    /* background-color: yellow; */
+}
+
+.faq-container{
+    width: 80%;
+    margin: auto;
+    /* background-color: yellow; */
+    display: grid;
+    color: white;
+    gap: 20px;
+}
+
+#faq1{
+    border: 2px solid yellow;
+    height: 84px;
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-family: Poppins;
+    text-decoration: none;
+}
