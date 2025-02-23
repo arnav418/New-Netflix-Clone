@@ -2,8 +2,6 @@
 
 Welcome to the **Streaming Platform UI Clone**! This project is a front-end replica of a popular streaming service, designed purely for UI/UX demonstration. 🎬🍿
 
-![Demo](assets/Netflix-Clone.gif)
-
 ---
 
 ## 🚀 Features
@@ -25,4 +23,13 @@ Welcome to the **Streaming Platform UI Clone**! This project is a front-end repl
 ---
 
 ## 📂 Project Structure
+
+---
+
+## 🎯 How to View
+
+1️⃣ Clone this repository:
+```bash
+git clone https://github.com/arnav418/New-Netflix-Clone.git
+
 
