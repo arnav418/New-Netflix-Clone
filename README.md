@@ -2,7 +2,7 @@
 
 Welcome to the **Streaming Platform UI Clone**! This project is a front-end replica of a popular streaming service, designed purely for UI/UX demonstration. 🎬🍿
 
-[![Watch the video](Netflix_Assets/Netflix-Clone.mp4)
+(Netflix_Assets/Screenshot 1 Netflix.png)
 
 ---
 
