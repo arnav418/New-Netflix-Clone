@@ -147,7 +147,7 @@
 
 .next-con{
     background-color: rgb(242, 242, 234);
-    height: 210vh;
+    height: 290vh;
     width: 100vw;
     margin-top: -33px;
     background-color: rgb(19, 15, 15);
@@ -237,38 +237,83 @@
     height: 80px;
 }
 
-.faq{
-    height: 50vh;
+.faqs{
+    height: 110vh;
     width: 100%;
-    margin-top: 64px;
-    /* background-color: blue; */
+    /* background-color: rgb(138, 138, 91); */
 }
 
-.faqhead{
-    color: white;
+.faq-head{
     font-family: Poppins;
     font-size: 24px;
     font-weight: 600;
-    width: 80%;
+    width: 79%;
     margin: auto;
-    /* background-color: yellow; */
+    color:white;
+    margin-top: 48px;
 }
 
-.faq-container{
-    width: 80%;
+.faqs-grid-con{
+    height: 85vh;
+    width: 79%;
     margin: auto;
-    /* background-color: yellow; */
+    /* background-color: rgb(235, 85, 85); */
     display: grid;
-    color: white;
-    gap: 20px;
+    grid-template-rows: repeat(6,1fr);
+    margin-top: 16px;
+    gap: 10px;
 }
 
-#faq1{
-    border: 2px solid yellow;
-    height: 84px;
+.faqs-items{
+    /* height: 80px; */
+    /* width: 100%; */
+    background-color: #2d2d2d;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-family: Poppins;
+    font-size: 24px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.faqs-items:hover{
+    background-color: #4f4d4d;
+}
+
+#cross:hover{
+    transform: rotate(45deg);
+}
+
+.last-signup-con{
+    margin-top: -62px;
+}
+.signupbox{
+    height: 90px;
+    width: 100%;
+    /* background-color: yellow; */
     display: flex;
     align-items: center;
-    font-size: 24px;
+    gap: 8px;
+    justify-content: center;
+}
+#last-para{
+    color: white;
+    /* background-color: red; */
+    text-align: center;
     font-family: Poppins;
-    text-decoration: none;
+}
+
+#signup1{
+    height: 56px;
+    width:  561px;
+    padding: 24px 16px;
+    font-size: 16px;
+    border-radius: 4px;
+    color: white;
+    outline: none;
+    border: 2px solid rgb(205, 196, 196);
+    background-color: transparent;
 }
