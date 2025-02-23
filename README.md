@@ -25,7 +25,7 @@ Welcome to the **Streaming Platform UI Clone**! This project is a front-end repl
 ### 📂 Project Preview  
 
 #### Home Page  
-![Home Page](Screenshot%201%20Netflix.png)  
+![Home Page](Netflix_assets/Screenshot 1 Netflix.png)  
 
 #### Trending Section  
 ![Trending](Screenshot%202%20Netflix.png)  
