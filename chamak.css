@@ -147,7 +147,7 @@
 
 .next-con{
     background-color: rgb(242, 242, 234);
-    height: 290vh;
+    height: 310vh;
     width: 100vw;
     margin-top: -33px;
     background-color: rgb(19, 15, 15);
@@ -316,4 +316,57 @@
     outline: none;
     border: 2px solid rgb(205, 196, 196);
     background-color: transparent;
+}
+
+
+.footer{
+    /* background-color: yellow; */
+    height: 45vh;
+    width: 100%;
+}
+
+#call-kare{
+    /* background-color: brown; */
+    width: 79%;
+    margin: auto;
+    color: rgb(195, 180, 180);
+    margin-top: 67px;
+    font-family: Poppins;
+}
+#call-kare a{
+    color: rgb(195, 180, 180);
+
+}
+
+.foot-con{
+    /* background-color: red; */
+    width: 79%;
+    margin: auto;
+    height: 132px;
+    display: flex;
+    margin-top: 43px;
+    gap: 10px;
+}
+.foot-items1{
+    /* background-color: orange; */
+    width: 300px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.foot-items1 a{
+    color: rgb(195, 180, 180);
+}
+
+.last-items{
+    /* background-color: brown; */
+    height: 14vh;
+    width: 79%;
+    margin: auto;
+    margin-top: 10px;
+    padding: 9px;
+    /* display: flex; */
+    /* flex-direction: column; */
 }
